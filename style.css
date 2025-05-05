@@ -7,7 +7,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -17,12 +18,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
@@ -31,8 +39,8 @@ a {
   text-decoration: none;
 }
 
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -42,3 +50,18 @@ button {
   cursor: pointer;
 }
 
+body {
+  background-color: #fefae0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 2px solid #6b705c;
+  width: 90%;
+  height: 90%;
+  background-color: #D4A373;
+  border-radius: 25px;
+}
