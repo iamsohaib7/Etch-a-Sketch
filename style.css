@@ -1,4 +1,5 @@
 /* === CSS Reset / Normalize === */
+/* Defaults */
 *,
 *::before,
 *::after {
@@ -50,9 +51,9 @@ button {
   cursor: pointer;
 }
 
+/* User Styles */
 body {
-  background-color: #fefae0;
-  height: 100vh;
+  background-color: #faedcd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,8 +61,47 @@ body {
 
 .container {
   border: 2px solid #6b705c;
-  width: 90%;
-  height: 90%;
-  background-color: #D4A373;
+  width: 700px;
+  height: 700px;
+  background-color: #d4a373;
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.canvas {
+  background-color: #fefae0;
+  margin: 20px 20px 20px 20px;
+  border: solid 2px #463f3a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 660px;
+  width: 660px;
+  box-sizing: border-box;
+}
+
+.controller {
+  background-color: #e9edc9;
+  height: 650px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid 2px #463f3a;
+  margin: 20px 20px 20px 0;
+}
+
+#screen {
+  height: 640px;
+  width: 640px;
+  background-color: #edede9;
+  display: flex;
+}
+.row {
+  flex: 1;
+}
+.tile {
+  background-color: white;
+  flex: 1;
+  border: 1px solid #bde0fe;
 }
