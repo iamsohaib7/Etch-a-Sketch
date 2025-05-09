@@ -82,7 +82,6 @@ body {
   box-sizing: border-box;
 }
 
-
 #screen {
   height: 640px;
   width: 640px;
@@ -96,4 +95,45 @@ body {
   background-color: white;
   flex: 1;
   border: 1px solid #bde0fe;
+}
+.canvas-controller {
+  height: 300px;
+  width: 250px;
+  border: 2px solid #344e41;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  text-align: center;
+  background-color: #fed9b7;
+}
+
+.btn {
+  border: 1.5px solid #ccd5ae;
+  width: 230px;
+  height: 50px;
+  background-color: #90e0ef;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#clear-btn:hover {
+  background-color: hsl(197, 72%, 85%);
+}
+
+#random-btn {
+  margin-top: 30px;
+  background-color: #cdb4db;
+}
+#random-btn:hover {
+  background-color: hsl(282, 34%, 89%);
+}
+
+.slide-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input[type="range"] {
+  accent-color: #003049;
 }
