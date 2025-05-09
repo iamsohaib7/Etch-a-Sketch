@@ -1,8 +1,6 @@
 const container = document.querySelector(".container");
 const canvas = document.createElement("div");
-const canvasController = document.createElement("div");
 canvas.className = "canvas";
-canvasController.className = "controller";
 container.appendChild(canvas);
 
 const screen = document.createElement("div");
@@ -19,6 +17,9 @@ for (let i = 0; i < tiles; i++) {
     const tile = document.createElement("div");
     tile.style.height = `${tileHeight}px`;
     tile.className = "tile";
+    tile.addEventListener("mouseover", ()=> {
+      tile.style.backgroundColor = "black";
+    })
     row.appendChild(tile);
   }
   row.className = "row";
